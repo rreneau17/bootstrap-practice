@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Custom styles for this form -->
+    <link rel="stylesheet" href="stylesheets/main.css">
+</head>
+<body>
+    <!--
+    #########################################################
+    This program is for practice with forms using Bootstrap
+    #########################################################
+    -->
+    
+    <div class="container">
+        <form>
+            <div class="form-row">
+                <div class="col-sm-6 p-3">
+                    <label for="fname">First Name</label>
+                    <input type="text" class="form-control" id="fname">
+                </div>
+                <div class="col-sm-6 p-3">
+                    <label for="lname">Last Name</label>
+                    <input type="text" class="form-control" id="lname">
+                </div>
+            </div>
+            <div class="form-row">
+                    <div class="col-sm-6 p-3">
+                        <label for="website">Website</label>
+                        <input type="text" class="form-control" id="website">
+                    </div>
+                    <div class="col-sm-6 p-3">
+                        <label for="phone">Phone</label>
+                        <input type="text" class="form-control" id="phone">
+                    </div>
+            </div>
+            <div class="form-row">
+                <div class="col-sm-6 p-3">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email"></input>
+                </div>
+                <div class="col-sm-6 p-3">
+                    <legend class="col-form-label">Best time to call you?</legend>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="morning" name="morning" class="custom-control-input">
+                        <label class="custom-control-label" for="morning">Morning</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="afternoon" name="afternoon" class="custom-control-input">
+                        <label class="custom-control-label" for="afternoon">Afternoon</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group p-3">
+                <label for="projDesc">Please explain your project</label>
+                <textarea class="form-control" id="projDesc" rows="4"></textarea>
+            </div>
+            <div class="form-row">
+                <div class="col-sm-6 p-3">
+                    <legend class="col-form-label">What is your budget range?</legend>
+                    <div class="input-group">
+                        <select class="custom-select" id="budget">
+                            <option selected>Choose...</option>
+                            <option value="less than 10K">less than 10K</option>
+                            <option value="10 - 50K">10 - 50K</option>
+                            <option value="over 50K"> over 50K</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-6 p-3">
+                    <legend class="col-form-label">What is your timeline?</legend>
+                    <div class="input-group">
+                        <select class="custom-select" id="timeline">
+                            <option selected>Choose...</option>
+                            <option value="6 mos">6 mos</option>
+                            <option value=" 1 year">1 year</option>
+                            <option value="over 1 year"> over 1 year</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-sm-6 p-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="logoDesign">
+                        <label class="form-check-label" for="logoDesign">Logo Design and Branding</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="logoDesign">
+                        <label class="form-check-label" for="logoDesign">Logo Design and Branding</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="logoDesign">
+                        <label class="form-check-label" for="logoDesign">Logo Design and Branding</label>
+                    </div>
+                </div>
+                <div class="col-sm-6 p-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="logoDesign">
+                        <label class="form-check-label" for="logoDesign">Logo Design and Branding</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="logoDesign">
+                        <label class="form-check-label" for="logoDesign">Logo Design and Branding</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="logoDesign">
+                        <label class="form-check-label" for="logoDesign">Logo Design and Branding</label>
+                    </div>
+                </div>
+            </div>
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="customFile">
+                <label class="custom-file-label" for="customFile">Choose file</label>
+            </div>
+        </form>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
